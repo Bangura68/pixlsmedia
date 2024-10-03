@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 main {
@@ -12,13 +13,14 @@ main {
 
 li {
     list-style-type: none;
+    color: #b7b7b7;
 
 }
 
-.nav-left a {
+
+.nav-left a{
     text-decoration: none;
     color: #b7b7b7;
-
 }
 
 .nav-left a.active {
@@ -30,7 +32,7 @@ nav {
     display: flex;
     justify-content: space-between;
     background-color: #fff;
-    padding: 10px 10px 20px 10px;
+    padding: 15px 15px 20px 15px;
     border-radius: 30px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
         rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
@@ -39,11 +41,13 @@ nav {
 .nav-left {
     display: flex;
     gap: 100px;
+    align-items: center;
 }
 
 .nav-left ul {
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
 /*designing the ul*/
@@ -56,8 +60,9 @@ ul li input {
 .btn-wrapper button {
     background-color: #d1ff97;
     display: flex;
-    padding: 15px;
+    padding: 15px; 
     border-radius: 20px;
+    border: none;
 
 }
 
@@ -272,7 +277,7 @@ form button {
     cursor: pointer;
     border-radius: 30px;
     color: white;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .overlay {
